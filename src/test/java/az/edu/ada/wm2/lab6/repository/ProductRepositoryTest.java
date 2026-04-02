@@ -1,7 +1,7 @@
-package az.edu.ada.wm2.repository;
+package az.edu.ada.wm2.lab6.repository;
 
-import az.edu.ada.wm2.lab6.model.Product;
-import az.edu.ada.wm2.lab6.repository.ProductRepository;
+import az.edu.ada.wm2.lab6.lab6.model.Product;
+import az.edu.ada.wm2.lab6.lab6.repository.ProductRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.data.jpa.test.autoconfigure.DataJpaTest;

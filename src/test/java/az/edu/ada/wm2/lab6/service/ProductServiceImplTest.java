@@ -1,13 +1,13 @@
-package az.edu.ada.wm2.service;
+package az.edu.ada.wm2.lab6.service;
 
-import az.edu.ada.wm2.lab6.model.Category;
-import az.edu.ada.wm2.lab6.model.Product;
-import az.edu.ada.wm2.lab6.model.dto.ProductRequestDto;
-import az.edu.ada.wm2.lab6.model.dto.ProductResponseDto;
-import az.edu.ada.wm2.lab6.model.mapper.ProductMapper;
-import az.edu.ada.wm2.lab6.repository.CategoryRepository;
-import az.edu.ada.wm2.lab6.repository.ProductRepository;
-import az.edu.ada.wm2.lab6.service.ProductServiceImpl;
+import az.edu.ada.wm2.lab6.lab6.model.Category;
+import az.edu.ada.wm2.lab6.lab6.model.Product;
+import az.edu.ada.wm2.lab6.lab6.model.dto.ProductRequestDto;
+import az.edu.ada.wm2.lab6.lab6.model.dto.ProductResponseDto;
+import az.edu.ada.wm2.lab6.lab6.model.mapper.ProductMapper;
+import az.edu.ada.wm2.lab6.lab6.repository.CategoryRepository;
+import az.edu.ada.wm2.lab6.lab6.repository.ProductRepository;
+import az.edu.ada.wm2.lab6.lab6.service.ProductServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -1,8 +1,8 @@
-package az.edu.ada.wm2.lab6.controller;
+package az.edu.ada.wm2.lab6.lab6.controller;
 
-import az.edu.ada.wm2.lab6.model.dto.ProductRequestDto;
-import az.edu.ada.wm2.lab6.model.dto.ProductResponseDto;
-import az.edu.ada.wm2.lab6.service.ProductService;
+import az.edu.ada.wm2.lab6.lab6.model.dto.ProductRequestDto;
+import az.edu.ada.wm2.lab6.lab6.model.dto.ProductResponseDto;
+import az.edu.ada.wm2.lab6.lab6.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

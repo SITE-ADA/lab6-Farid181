@@ -1,9 +1,9 @@
-package az.edu.ada.wm2.mapper;
+package az.edu.ada.wm2.lab6.mapper;
 
-import az.edu.ada.wm2.lab6.model.Category;
-import az.edu.ada.wm2.lab6.model.Product;
-import az.edu.ada.wm2.lab6.model.dto.ProductResponseDto;
-import az.edu.ada.wm2.lab6.model.mapper.ProductMapper;
+import az.edu.ada.wm2.lab6.lab6.model.Category;
+import az.edu.ada.wm2.lab6.lab6.model.Product;
+import az.edu.ada.wm2.lab6.lab6.model.dto.ProductResponseDto;
+import az.edu.ada.wm2.lab6.lab6.model.mapper.ProductMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
