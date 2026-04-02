@@ -1,9 +1,6 @@
 package az.edu.ada.wm2.lab6.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
-
+import jakarta.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
@@ -12,6 +9,7 @@ import java.util.UUID;
 public class Category {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     private String name;
@@ -23,7 +21,6 @@ public class Category {
     }
 
     public Category(String name) {
-        this.id = UUID.randomUUID();
         this.name = name;
     }
 
